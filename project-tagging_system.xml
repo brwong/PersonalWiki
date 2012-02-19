@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<page><details><name>project-tagging system</name></details><content><version current="true" ip="127.0.0.1" created="2008-01-12|13:40:26">new sites out there have "content tagging"&#xD;
+sites like del.icio.us, or flickr.com&#xD;
+each bookmark or image has a set of keywords (called tags) used to describe it&#xD;
+when searching, one can click on a keyword, and all the bookmarks or images associated with that keyword are displayed, thus filtering out all unrelated items.&#xD;
+&#xD;
+I want to create such a system for myself.&#xD;
+&#xD;
+***ideas and implementations:&#xD;
+&#xD;
+- list of previous tags before new tag creation&#xD;
+(I want the variety of keywords to be slightly limited. that is, I don't want to type "net" for one thing, and "internet" for another, while forgetting that the first one was different. this will cause different keywords to be created for the same meaning. therefore, perhaps there can be a list of previously created tags with checkboxes beside them, as well as an empty box to create new ones at the bottom. this way, no unnecessary new tags are created.)&#xD;
+&#xD;
+- multiple tag searches, easy/intuitive interface&#xD;
+(being able to select more than one tag for a search in order to narrow down the possibilities)&#xD;
+&#xD;
+- tags saved to an xml file&#xD;
+&#xD;
+- a portable (php?) module that can be included into any page&#xD;
+(the script would simply include it, specify the xml file with the tags, and use it)&#xD;
+&#xD;
+***needed ressources:&#xD;
+- php (classes?)&#xD;
+ - file reading/writing (xml)&#xD;
+- javascript&#xD;
+ - new input boxes for multiple tag creations&#xD;
+ - string processing, limiting tag content (spaces, commas, etc.)&#xD;
+- xml&#xD;
+ - file for tags&#xD;
+ - in items file for applicable tags&#xD;
+- html forms&#xD;
+ - checkboxes&#xD;
+- tag ideas (to come later)&#xD;
+</version></content></page>

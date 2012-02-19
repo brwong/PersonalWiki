@@ -1,0 +1,47 @@
+body {
+background-color:#FFFFFF;
+font-family:Arial,sans-serif;
+font-size:12pt;
+}
+#titlebar {
+background-color:#FFEEEE;
+font-size:20pt;
+font-weight:bold;
+}
+#toolbar {
+background-color:#EEFFEE;
+}
+#content {
+background-color:#FFEEEE;
+}
+#contenttoolbar {
+background-color:#EEEEFF;
+text-align:right;
+}
+#mainpane {
+background-color:#EEFFFF;
+
+}
+#bottombar {
+background-color:#999966;
+text-align:center;
+}
+#statusbar {
+text-align:right;
+}
+.contenterror {
+display: block;
+text-align: center;
+color:#FF0000;
+}
+.contentinputlabel{
+width:10%;
+float:left;
+text-align:right;
+}
+.contentinput{
+width:90%;
+}
+.contentbox {
+width:100%;
+}

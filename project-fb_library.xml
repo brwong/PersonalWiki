@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<page><details><name>project-fb library</name></details><content><version current="true" ip="127.0.0.1" created="2008-01-18|21:25:59">FB interaction program/library&#xD;
+&#xD;
+possibly a library of available methods for accessing FB information&#xD;
+&#xD;
+it works by creating a cookiejar in python, and signing into the website via urllib/2&#xD;
+&#xD;
+- beautiful soup for dissecting retreived pages for wanted information&#xD;
+- cPickle for saving obtained data&#xD;
+- "person" classes containing idnum:int, name:str, photos:list, details:xmlstr, etc&#xD;
+- possible integration with firefox cookies (for simultaneous "personal" use as well as "automated" use), although the way to do this is currently unknown (attempts to copy the cookies.txt file into the cookiejar have thus far failed)</version></content></page>

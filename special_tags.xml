@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<page><details><name>special tags</name></details><content><version current="true" ip="127.0.0.1" created="2008-01-05|01:21:05">SPECIAL WIKI MARKUP TAGS - still a work in progress (not implemented yet)&#xD;
+&#xD;
+needed/wanted tags -- suggestion(s)&#xD;
+&#xD;
+internal link -- {{link|this was my first ever wiki page!|turtles}}&#xD;
+external link -- {{url|click here to search|http://www.google.ca/}}&#xD;
+italics&#xD;
+bold&#xD;
+underline&#xD;
+colour ?&#xD;
+image -- {{img|this is the alternate text|media/turtles.jpg}}&#xD;
+flash -- {{swf|media/turtle_game.swf}}&#xD;
+iframe??? -- {{iframe|http://www.google.ca/}}&#xD;
+title -- {{title}} ... {{/title}}&#xD;
+subtitle -- {{subtitle}} ... {{/subtitle}}&#xD;
+section&#xD;
+table&#xD;
+lists&#xD;
+sideline bullet points (eg: reader notes)&#xD;
+</version></content></page>

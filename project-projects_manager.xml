@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<page><details><name>project-projects manager</name></details><content><version current="true" ip="127.0.0.1" created="2008-01-18|21:36:02">Personal Projects Manager&#xD;
+&#xD;
+...because a wiki is good for collaborating and contributing/pooling ideas, but not good as a personal projects manager - it needs its own application&#xD;
+&#xD;
+web/php based?&#xD;
+using XML?&#xD;
+&#xD;
+it must be able to show:&#xD;
+-the project name and a few details&#xD;
+-date of original idea&#xD;
+-further details&#xD;
+---importance/urgency (priority)&#xD;
+------needed skills&#xD;
+------tasks involved&#xD;
+------"size" estimate&#xD;
+------part/total completion goals / steps&#xD;
+-progress details&#xD;
+---what has been finished and when&#xD;
+</version></content></page>

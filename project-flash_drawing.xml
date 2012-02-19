@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<page><details><name>project-flash drawing</name></details><content><version current="true" ip="127.0.0.1" created="2008-01-18|22:52:44">flash drawing program&#xD;
+&#xD;
+draw images on flash (perhaps to be included in this wiki)&#xD;
+&#xD;
+to draw:&#xD;
+onMouseDown -&gt; onEnterFrame -&gt; record mouse x/y&#xD;
+onMouseUp -&gt; stop recording, add points to xml "line" node&#xD;
+save xml file&#xD;
+&#xD;
+to display drawings:&#xD;
+access xml&#xD;
+redraw lines based on points&#xD;
+&#xD;
+to include:&#xD;
+-line thickness&#xD;
+-line colour&#xD;
+-&#xD;
+&#xD;
+</version></content></page>

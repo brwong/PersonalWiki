@@ -1,0 +1,19 @@
+<!-- <page></page>
+- first attributes/tags contain security issues, keywords, alternate names, special comments
+- first <content> node contains most recent version
+- subsequent <content> nodes contain previous versions (all include date, who edited, etc.)
+-->
+<page>
+<details>
+</details>
+<talk>
+<entry></entry>
+</talk>
+<content>
+<version created="" by="" ip="" current="true">
+</version>
+<version created="" by="" ip="" current="true">
+</version>
+</content>
+</page>
+

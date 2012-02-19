@@ -1,0 +1,262 @@
+WIKI project page
+this is the first of what will hopefully be many project pages that hopefully come to fruition.
+I am not good at completing personal projects. I lose interest too quickly, and without any true deadline or necessity, they fall by the wayside. if ever I choose to resume it, I have either forgotten what everything does, or since found better ways of doing the same things, and I have to start again from scratch.
+the goal of these project pages is to organize ressources, ideas, thoughts, thought processes, research, and work into something managable and easy to remember and pick up after a period of inactivity.
+the idea is to put it in a wiki, an easily editable web page or series of web pages. this way, it will be accessible from anywhere (with an internet connection) and at all times (when my server computer is on). this will also allow for others to contribute if they ever so choose.
+there is one catch: it doesn't exist yet. so first on my order of business is to create it, and get it up and running.
+unfortunately, it is no different than any other project (except that its end result should help all other projects), and has already been set aside at least once before. hopefully, with this page, I'll be able to avoid starting from scratch when I come back to it.
+
+REQUIREMENTS / THINGS TO THINK ABOUT
+- presentation
+	- format of the pages
+		- content
+			- text
+			- images
+			- flash content (auto-play?)
+			- sounds
+			- internal links
+			- external links
+		- appearance
+			- sidebar?
+			- edit/save buttons
+			- "tabs" (like in wikipedia) ?
+			- logo?
+	- rigidity of the style?
+		- editable css per page?
+		- master css for wiki? (preferred)
+- editing
+	- different "edit settings" for each page
+		- by raw html
+		- by limited html (eg: no "a" tags, etc. or limited to formatting-only tags)
+		- by special tags (wikipedia/BBforum style)
+		- plain text
+		- raw text (for php, etc.)
+	- online text editor?
+		- simple textarea?
+		- javascript assisted? -> NEW PROJECT
+	- edit through ajax or php?
+		- index.php?page=...&action=edit  ??
+		- include edit.php?
+	- editing for users without html (etc.) knowledge
+	- editing for internet/programming experienced-users
+	- creating new pages
+	- preview page?
+	- special language/markup?
+		- titles
+		- subtitles
+		- table of contents
+		- images/other media
+		- sections/subsections
+		- tables
+- data storage
+	- format
+		- SQL? (originally planned this, but leaning away from it)
+		- xml? (leaning towards this, or at least including this)
+		- html?
+		- txt?
+		- custom format/markup?
+	- what is stored?
+		- previous versions?
+			- how is this stored?
+		- edit history
+		- who's doing what
+	- extra storage
+		-media
+			- images
+			- flash files
+				- editable?
+			- sound files
+				- upload sounds?
+				- record sounds on the site?
+		- upload page
+			- upload limits
+				- size
+				- type
+		- location?
+			- "media" folder?
+	- size restriction monitoring (due to limited hard drive space on PC)
+	- non-latin language support?
+- CMS - content management system - organization of data
+	- content tags
+	- categories / category pages
+	- disambiguation pages
+	- talk pages?
+	- external links
+	- list of pages (including linked-to but unstarted pages)
+	- page requests
+		- alternate page names
+		- close spellings
+	- pages that link here
+	- automatic indexing program
+		- in python
+		- automatically run daily (or appropriate interval)
+	- sandbox/practice page
+	- random page
+		- "random page" eligibility (some pages are excluded)
+	- page accessing - urls
+		- mod_rewrite - /wiki/index.php?page=turtles ==> /wiki/turtles
+- who's who
+	- page-by-page read permissions
+	- page-by-page edit permissions
+	- media upload permissions
+		- by type
+	- user accounts
+	- security
+		- banning?
+		- accessing accounts
+	- records
+		- IP address
+		- time and date
+		- user account (if applicable)
+		- action (access/edit/create, etc.)
+- implementation
+	- single index.php file?
+	- ajax for editing?
+
+
+
+
+
+FORMAT/DESIGN OF PAGES
+- tentative index page
+	- currently, the full-on workhorse page of the wiki
+	- first access: main page
+	- on ?page=... , it accesses the desired page
+	- links to "edit"
+- edit page
+	- help list -> shows special tags, how-tos, etc.
+
+- information flow
+	- access request
+	- xml list of all pages (including alternate spellings/names) ?
+	- access restrictions/security issues marked on xml
+	- php file_get_contents
+	- php processing -> replaces special tags for html code
+		- links, etc. -> xml is searched again for internal links
+	- edit request (ajax)
+	- xml node is searched for clearance level -> permission is granted
+		- permission is not granted: message appears
+	- in-browser text editor appears (textarea box) - special tags are left as is
+		- javascript colour coding?
+	- changes are made
+	- files are uploaded
+	- changes are previewed?
+		- saved to a temp html file and displayed
+	- changes are saved
+		- php checks for differences in versions
+			- if identical, nothing is saved
+		- php processes text before saving
+			- profanity is censored
+			- html code is transformed into regular text (&lt; , &gt; , etc.)(for particular pages)
+		- php updates database while saving
+			- master list is updated
+				- new entries are added
+				- new linked-to entries are added (if not already existing)
+				- keywords are changed
+				- current page edit history is updated
+				- other pages' "pages that link here" is updated
+			- other lists are updated (ressources, links, etc.)
+	- new page is up-to-date
+
+- python periodic indexer
+	- every X hours (24?)
+	- takes a folder directory
+	- compares with master xml list, searches for unlisted files
+	- if found, it adds it to the xml
+	- reads text for links, ressources, etc.
+	- updates xml lists
+
+- needed special tags
+	- external link {{url:http://www.example.com}}
+	- internal link {{link:turtles}}
+	- media file link {{media:media/snowball.swf}}
+		- download link
+	- formatting
+		- bold {{b}} ... {{/b}}
+		- underline
+		- italics
+		- colour?
+	- sections, subsections
+	- table of contents -> box
+
+
+FORMAT OF DATA AND METADATA STORAGE
+- tentative page format (xml)
+	- <page></page>
+	- first attributes/tags contain security issues, keywords, alternate names, special comments
+	- first <content> node contains most recent version
+	- subsequent <content> nodes contain previous versions (all include date, who edited, etc.)
+- tentative master list (xml)
+	- contains <entry> or <article> or <page> tags
+	- each childnode contains
+		- title
+		- alternate titles
+		- keywords
+		- security access control
+		- edit history?
+		- size
+		- pages that link here
+		- on-site external ressources required?
+		- off-site external ressources required?
+		- status: new (empty), stub (very short), incomplete (marked as such), "complete" (relative term)
+- tentative master ressource list (xml)
+	- file name
+	- file location
+	- file type
+	- file size
+	- pages using it
+	- pages previously (but no longer) using it
+	- time & date first uploaded (or first seen, if caught only by indexer)
+- tentative master external ressource list
+	- name
+	- type
+	- link
+	- pages using it
+	- pages previously (but no longer) using it
+	- time & date first referenced
+
+
+PROGRAMMING RESSOURCES
+- php
+	- to process strings
+	- to access secure unique id information
+		- and compare with database (SQL?)
+	- to serve ajax xmlhttp requests
+		- access xml master list
+		- read master list
+		- determine best page
+		- access page
+		- return it
+	- 8 modes
+		- main page
+		- read
+		- edit
+		- create
+		- list categories
+		- list all
+		- edit history
+		- previous version view
+	- in each mode
+		- change title tag
+		- change title
+		- change links/tools
+		- change primary content
+- javascript
+	- ajax brings up the edit screen
+- html
+	- provide frame for ajax edit screen
+- python
+	- listdir to see all files
+	- read xml to compare all files to master list
+	- edit xml if extra files are found
+
+
+FILE RESSOURCES
+- index.php
+- master.xml
+- ressources.xml
+- offsite.xml
+- media/
+- indexer.py
+- pages_example.xml
+- pages_example.xml

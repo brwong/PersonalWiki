@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<page><details><name>project-family tree</name></details><content><version current="true" ip="127.0.0.1" created="2008-01-16|22:33:43">FAMILY TREE PROJECT&#xD;
+&#xD;
+in order to facilitate genealogy work, this program will produce a dynamic, easy-to-read, possibly flash-based, highly informative pedigree chart of one's family, given raw relations data (probably in XML format).&#xD;
+&#xD;
+display&#xD;
+what the flash file does is show the default (or previously chosen) person, surrounded by its immediate family, consisting of his or her parents, siblings, spouse (as well as past ones), and children.&#xD;
+&#xD;
+data (ideas)&#xD;
+-unique entry nodes, each listing (in addition to personal info) their immediate relatives for linking purposes. each node also has a unique ID code</version></content></page>

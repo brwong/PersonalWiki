@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!-- tentative master list (xml)
+	- contains <entry> or <article> or <page> tags
+	- each childnode contains
+		- title
+		- alternate titles
+		- keywords
+		- security access control
+		- edit history?
+		- size
+		- pages that link here
+		- on-site external ressources required?
+		- off-site external ressources required?
+		- status: new (empty), stub (very short), incomplete (marked as such), "complete" (relative term)
+z-->
+<master>
+<file src="about.html" protected="true"/>
+<file src="create.php" protected="true"/>
+<file src="edit.php" protected="true"/>
+<file src="edit2.php" protected="true"/>
+<file src="get-ajax-template.php" protected="true"/>
+<file src="IDLE (Python GUI).lnk" protected="true"/>
+<file src="index.php" protected="true"/>
+<file src="index2.php" protected="true"/>
+<file src="index3.php" protected="true"/>
+<file src="mainpage.php" protected="true"/>
+<file src="mainpage2.php" protected="true"/>
+<file src="master.xml" protected="true"/>
+<file src="name.php" protected="true"/>
+<file src="name2.php" protected="true"/>
+<file src="page-template.xml" protected="true"/>
+<file src="project page - wiki 01.txt" protected="true"/>
+<file src="read.php" protected="true"/>
+<file src="read2.php" protected="true"/>
+<file src="save.php" protected="true"/>
+<file src="save2.php" protected="true"/>
+<file src="wikistyle.css" protected="true"/>
+<file src="wikiwork.js" protected="true"/>
+<file src="turtles.xml">
+	<name>turtles</name>
+	<altname>turtle</altname>
+	<altname>tortoise</altname>
+	<keywords>animal, reptile, slow, shell</keywords>
+	<security/>
+</file>
+<file src="blahblahblah.xml">
+	<name>blahblahblah</name>
+	<altname>random</altname>
+	<security/>
+</file>
+<file src="projects.xml"><name>projects</name></file><file src="sandbox.xml"><name>sandbox</name></file><file src="project-journal.xml"><name>project-journal</name></file><file src="personal_timeline.xml"><name>personal timeline</name></file><file src="special_tags.xml"><name>special tags</name></file><file src="project-wiki.xml"><name>project-wiki</name></file><file src="project-tagging_system.xml"><name>project-tagging system</name></file><file src="to-do.xml"><name>to-do</name></file><file src="project-family_tree.xml"><name>project-family tree</name></file><file src="project-cegep_experience.xml"><name>project-cegep experience</name></file><file src="project-home_server.xml"><name>project-home server</name></file><file src="project-home_smtp_server.xml"><name>project-home smtp server</name></file><file src="project-automation_program.xml"><name>project-automation program</name></file><file src="project-fb_library.xml"><name>project-fb library</name></file><file src="project-projects_manager.xml"><name>project-projects manager</name></file><file src="project-dream_home.xml"><name>project-dream home</name></file><file src="project-ultimate_peripherals_list.xml"><name>project-ultimate peripherals list</name></file><file src="project-record_digitization.xml"><name>project-record digitization</name></file><file src="project-xmlsocket_program.xml"><name>project-xmlsocket program</name></file><file src="project-photo_galleries.xml"><name>project-photo galleries</name></file><file src="project-interesting_quotes.xml"><name>project-interesting quotes</name></file><file src="project-flash_drawing.xml"><name>project-flash drawing</name></file><file src="project-hotmail_downloader.xml"><name>project-hotmail downloader</name></file></master>

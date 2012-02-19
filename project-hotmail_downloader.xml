@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<page><details><name>project-hotmail downloader</name></details><content><version ip="127.0.0.1" created="2008-01-29|22:31:17">hotmail downloader&#xD;
+&#xD;
+copies all emails from a hotmail account to the hard drive&#xD;
+this prevents messages from being completely lost in the event of an accidental account deletion&#xD;
+&#xD;
+it uses python, and a module called cPAMIE&#xD;
+the module automates the IE GUI - it logs into the account, and goes through each letter one by one, downloading the source code of the page.</version><version current="true" ip="70.48.1.188" created="2009-06-12|09:20:28">hotmail downloader&#xD;
+&#xD;
+copies all emails from a hotmail account to the hard drive&#xD;
+this prevents messages from being completely lost in the event of an accidental account deletion&#xD;
+&#xD;
+it uses python, and a module called cPAMIE&#xD;
+the module automates the IE GUI - it logs into the account, and goes through each letter one by one, downloading the source code of the page.&#xD;
+&#xD;
+I hear the Hotmail now offers POP access, making this an easier task to accomplish.</version></content></page>

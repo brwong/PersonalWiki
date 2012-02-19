@@ -1,0 +1,11 @@
+December 2007
+Personal Wiki Project
+
+I started this project to learn about how wikis are implemented.
+It is PHP, and it stores flat-files for content.
+It also has naive rudimentary version control.
+Future features, and the skills needed to implement them (that I did not yet have) are listed on the wiki project page.
+
+Work on this project stopped in early 2008, and has not continued since.
+
+

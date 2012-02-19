@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<page><details><name>project-photo galleries</name></details><content><version ip="127.0.0.1" created="2008-01-18|22:42:24">photo galleries&#xD;
+&#xD;
+I love pictures, and taking pictures, but I need a good way to display/present/browse through them&#xD;
+&#xD;
+&#xD;
+different formats:&#xD;
+-php generated web page&#xD;
+-flash-based display (including animations, etc)&#xD;
+&#xD;
+organization:&#xD;
+-xml index&#xD;
+-manually added files&#xD;
+-python indexer-added files&#xD;
+-grouped into "albums"?&#xD;
+-grouped by date?&#xD;
+</version><version current="true" ip="127.0.0.1" created="2008-01-18|22:42:42">photo galleries&#xD;
+&#xD;
+I love pictures, and taking pictures, but I need a good way to display/present/browse through them&#xD;
+&#xD;
+&#xD;
+different formats:&#xD;
+-php generated web page&#xD;
+-flash-based display (including animations, etc)&#xD;
+&#xD;
+organization:&#xD;
+-xml index&#xD;
+-manually added files&#xD;
+-python indexer-added files&#xD;
+-grouped into "albums"?&#xD;
+-grouped by date?&#xD;
+-with tags?</version></content></page>

@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<page><details><name>project-wiki</name></details><content><version current="true" ip="127.0.0.1" created="2008-01-06|00:35:08">WIKI project page&#xD;
+this is the first of what will hopefully be many project pages that hopefully come to fruition.&#xD;
+I am not good at completing personal projects. I lose interest too quickly, and without any true deadline or necessity, they fall by the wayside. if ever I choose to resume it, I have either forgotten what everything does, or since found better ways of doing the same things, and I have to start again from scratch.&#xD;
+the goal of these project pages is to organize ressources, ideas, thoughts, thought processes, research, and work into something managable and easy to remember and pick up after a period of inactivity.&#xD;
+the idea is to put it in a wiki, an easily editable web page or series of web pages. this way, it will be accessible from anywhere (with an internet connection) and at all times (when my server computer is on). this will also allow for others to contribute if they ever so choose.&#xD;
+there is one catch: it doesn't exist yet. so first on my order of business is to create it, and get it up and running.&#xD;
+unfortunately, it is no different than any other project (except that its end result should help all other projects), and has already been set aside at least once before. hopefully, with this page, I'll be able to avoid starting from scratch when I come back to it.&#xD;
+&#xD;
+REQUIREMENTS / THINGS TO THINK ABOUT&#xD;
+- presentation&#xD;
+	- format of the pages&#xD;
+		- content&#xD;
+			- text&#xD;
+			- images&#xD;
+			- flash content (auto-play?)&#xD;
+			- sounds&#xD;
+			- internal links&#xD;
+			- external links&#xD;
+		- appearance&#xD;
+			- sidebar?&#xD;
+			- edit/save buttons&#xD;
+			- "tabs" (like in wikipedia) ?&#xD;
+			- logo?&#xD;
+	- rigidity of the style?&#xD;
+		- editable css per page?&#xD;
+		- master css for wiki? (preferred)&#xD;
+- editing&#xD;
+	- different "edit settings" for each page&#xD;
+		- by raw html&#xD;
+		- by limited html (eg: no "a" tags, etc. or limited to formatting-only tags)&#xD;
+		- by special tags (wikipedia/BBforum style)&#xD;
+		- plain text&#xD;
+		- raw text (for php, etc.)&#xD;
+	- online text editor?&#xD;
+		- simple textarea?&#xD;
+		- javascript assisted? -&gt; NEW PROJECT&#xD;
+	- edit through ajax or php?&#xD;
+		- index.php?page=...&amp;action=edit  ??
+		- include edit.php?
+	- editing for users without html (etc.) knowledge
+	- editing for internet/programming experienced-users
+	- creating new pages
+	- preview page?
+	- special language/markup?
+		- titles
+		- subtitles
+		- table of contents
+		- images/other media
+		- sections/subsections
+		- tables
+- data storage
+	- format
+		- SQL? (originally planned this, but leaning away from it)
+		- xml? (leaning towards this, or at least including this)
+		- html?
+		- txt?
+		- custom format/markup?
+	- what is stored?
+		- previous versions?
+			- how is this stored?
+		- edit history
+		- who's doing what
+	- extra storage
+		-media
+			- images
+			- flash files
+				- editable?
+			- sound files
+				- upload sounds?
+				- record sounds on the site?
+		- upload page
+			- upload limits
+				- size
+				- type
+		- location?
+			- "media" folder?
+	- size restriction monitoring (due to limited hard drive space on PC)
+	- non-latin language support?
+- CMS - content management system - organization of data
+	- content tags
+	- categories / category pages
+	- disambiguation pages
+	- talk pages?
+	- external links
+	- list of pages (including linked-to but unstarted pages)
+	- page requests
+		- alternate page names
+		- close spellings
+	- pages that link here
+	- automatic indexing program
+		- in python
+		- automatically run daily (or appropriate interval)
+	- sandbox/practice page
+	- random page
+		- "random page" eligibility (some pages are excluded)
+	- page accessing - urls
+		- mod_rewrite - /wiki/index.php?page=turtles ==> /wiki/turtles
+- who's who
+	- page-by-page read permissions
+	- page-by-page edit permissions
+	- media upload permissions
+		- by type
+	- user accounts
+	- security
+		- banning?
+		- accessing accounts
+	- records
+		- IP address
+		- time and date
+		- user account (if applicable)
+		- action (access/edit/create, etc.)
+- implementation
+	- single index.php file?
+	- ajax for editing?
+
+
+
+
+
+FORMAT/DESIGN OF PAGES
+- tentative index page
+	- currently, the full-on workhorse page of the wiki
+	- first access: main page
+	- on ?page=... , it accesses the desired page
+	- links to "edit"
+- edit page
+	- help list -> shows special tags, how-tos, etc.
+
+- information flow
+	- access request
+	- xml list of all pages (including alternate spellings/names) ?
+	- access restrictions/security issues marked on xml
+	- php file_get_contents
+	- php processing -> replaces special tags for html code
+		- links, etc. -> xml is searched again for internal links
+	- edit request (ajax)
+	- xml node is searched for clearance level -> permission is granted
+		- permission is not granted: message appears
+	- in-browser text editor appears (textarea box) - special tags are left as is
+		- javascript colour coding?
+	- changes are made
+	- files are uploaded
+	- changes are previewed?
+		- saved to a temp html file and displayed
+	- changes are saved
+		- php checks for differences in versions
+			- if identical, nothing is saved
+		- php processes text before saving
+			- profanity is censored
+			- html code is transformed into regular text (&lt; , &gt; , etc.)(for particular pages)&#xD;
+		- php updates database while saving&#xD;
+			- master list is updated&#xD;
+				- new entries are added&#xD;
+				- new linked-to entries are added (if not already existing)&#xD;
+				- keywords are changed&#xD;
+				- current page edit history is updated&#xD;
+				- other pages' "pages that link here" is updated&#xD;
+			- other lists are updated (ressources, links, etc.)&#xD;
+	- new page is up-to-date&#xD;
+&#xD;
+- python periodic indexer&#xD;
+	- every X hours (24?)&#xD;
+	- takes a folder directory&#xD;
+	- compares with master xml list, searches for unlisted files&#xD;
+	- if found, it adds it to the xml&#xD;
+	- reads text for links, ressources, etc.&#xD;
+	- updates xml lists&#xD;
+&#xD;
+- needed special tags&#xD;
+	- external link {{url:http://www.example.com}}&#xD;
+	- internal link {{link:turtles}}&#xD;
+	- media file link {{media:media/snowball.swf}}&#xD;
+		- download link&#xD;
+	- formatting&#xD;
+		- bold {{b}} ... {{/b}}&#xD;
+		- underline&#xD;
+		- italics&#xD;
+		- colour?&#xD;
+	- sections, subsections&#xD;
+	- table of contents -&gt; box&#xD;
+&#xD;
+&#xD;
+FORMAT OF DATA AND METADATA STORAGE&#xD;
+- tentative page format (xml)&#xD;
+	- &lt;page&gt;&lt;/page&gt;&#xD;
+	- first attributes/tags contain security issues, keywords, alternate names, special comments&#xD;
+	- first &lt;content&gt; node contains most recent version&#xD;
+	- subsequent &lt;content&gt; nodes contain previous versions (all include date, who edited, etc.)&#xD;
+- tentative master list (xml)&#xD;
+	- contains &lt;entry&gt; or &lt;article&gt; or &lt;page&gt; tags&#xD;
+	- each childnode contains&#xD;
+		- title&#xD;
+		- alternate titles&#xD;
+		- keywords&#xD;
+		- security access control&#xD;
+		- edit history?&#xD;
+		- size&#xD;
+		- pages that link here&#xD;
+		- on-site external ressources required?&#xD;
+		- off-site external ressources required?&#xD;
+		- status: new (empty), stub (very short), incomplete (marked as such), "complete" (relative term)&#xD;
+- tentative master ressource list (xml)&#xD;
+	- file name&#xD;
+	- file location&#xD;
+	- file type&#xD;
+	- file size&#xD;
+	- pages using it&#xD;
+	- pages previously (but no longer) using it&#xD;
+	- time&#xD;
+</version></content></page>

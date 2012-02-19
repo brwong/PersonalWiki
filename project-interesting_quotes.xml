@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<page><details><name>project-interesting quotes</name></details><content><version current="true" ip="127.0.0.1" created="2008-01-18|22:46:23">interesting quotes compilation&#xD;
+&#xD;
+storage:&#xD;
+xml&#xD;
+&#xD;
+display:&#xD;
+-flash (animated, every 10 seconds, etc)&#xD;
+-php (searched/selected by topic, etc (would require subject/keywords xml attributes))</version></content></page>

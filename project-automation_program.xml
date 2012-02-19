@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<page><details><name>project-automation program</name></details><content><version ip="127.0.0.1" created="2008-01-18|21:10:07"/><version current="true" ip="127.0.0.1" created="2008-01-18|21:13:09">&#xD;
+to get things done without you having to remember (and possibly forget) to&#xD;
+&#xD;
+&#xD;
+-  automation program&#xD;
+  --  XML (tasks), python, batch, AutoIt&#xD;
+  v-  windows task scheduler (alternatives?)&#xD;
+  --  VNC check&#xD;
+  --  web/ftp/smtp servers check&#xD;
+  --  email accounts checker&#xD;
+  v-  antivirus scan starter&#xD;
+  --  defragger?&#xD;
+  V-  flash tips links&#xD;
+  --  online task list editor&#xD;
+&#xD;
+&#xD;
+cron jobs&#xD;
+scheduled tasks (windows)(what's being used now) -&gt; runs python scripts which do what's needed&#xD;
+</version></content></page>

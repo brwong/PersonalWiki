@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<page>
+<details>
+<name>turtles</name>
+<altname>turtle</altname>
+<altname>tortoise</altname>
+</details>
+<talk>
+</talk>
+<content>
+<version created="2007-12-31|19:42:50" by="" ip="127.0.0.1">
+hi, this page is about turtles. big ones, small ones, here, there.
+</version>
+<version ip="127.0.0.1" created="2008-01-02|02:31:18">hi, this page is about turtles. big ones, small ones, here, there. pretty much used only as a test page, or a sandbox. Note to self: create a sandbox.</version>
+<version ip="127.0.0.1" created="2008-01-02|02:38:32">hi, this page is about turtles. big ones, small ones, here, there. pretty much used only as a test page, or a sandbox. Note to self: create a sandbox.sorry, I just have to add some special stuff to test the GET ajax junk: `~!@</version>
+<version ip="127.0.0.1" created="2008-01-02|02:40:44">hi, this page is about turtles. big ones, small ones, here, there. pretty much used only as a test page, or a sandbox. Note to self: create a sandbox.sorry, I just have to add some special stuff to test the GET ajax junk: `~!@I guess it didn\'t get very far... not even line breaks....\"\';;:[]\\{}|,./&lt;&gt;?=- _)(*</version>
+<version ip="127.0.0.1" created="2008-01-02|12:46:45">hi, this page is about turtles. big ones, small ones, here, there. pretty much used only as a test page, or a sandbox. Note to self: create a sandbox.sorry, I just have to add some special stuff to test the GET ajax junk: `~!@I guess it didn\\\'t get very far... not even line breaks....\\\"\\\';;:[]\\\\{}|,./&lt;&gt;?=- _)(*&#xD;
+&#xD;
+ha ha - just testing stuff</version><version ip="127.0.0.1" created="2008-01-02|12:52:09">hi, this page is about turtles. big ones, small ones, here, there. pretty much used only as a test page, or a sandbox.&#xD;
+Note to self: create a sandbox.&#xD;
+&#xD;
+sorry, I just have to add some special stuff to test the GET ajax junk: `~!@I guess it didn\\\\\\\'t get very far... not even line breaks....\\\\\\\"\\\\\\\';;:[]\\\\\\\\{}|,./&lt;&gt;?=- _)(*&#xD;
+&#xD;
+on the other hand, POST handles line breaks nicely!&#xD;
+&#xD;
+ha ha - just testing stuff&#xD;
+&#xD;
+next to do: take care of all those slashes...</version><version ip="127.0.0.1" created="2008-01-02|12:56:14">hi, this page is about turtles. big ones, small ones, here, there. pretty much used only as a test page, or a sandbox.&#xD;
+Note to self: create a sandbox.&#xD;
+&#xD;
+sorry, I just have to add some special stuff to test the GET ajax junk: `~!@I guess it didn't get very far... not even line breaks...."';;:[]\{}|,./&lt;&gt;?=- _)(*&#xD;
+&#xD;
+on the other hand, POST handles line breaks nicely!&#xD;
+&#xD;
+ha ha - just testing stuff&#xD;
+&#xD;
+next to do: take care of all those slashes...</version><version ip="127.0.0.1" created="2008-01-02|13:26:29">hi, this page is about turtles. big ones, small ones, here, there. pretty much used only as a test page, or a sandbox.&#xD;
+Note to self: create a sandbox.&#xD;
+&#xD;
+sorry, I just have to add some special stuff to test the GET ajax junk: `~!@I guess it didn't get very far... not even line breaks...."';;:[]{}|,./&lt;&gt;?=- _)(*&#xD;
+&#xD;
+on the other hand, POST handles line breaks nicely!&#xD;
+&#xD;
+ha ha - just testing stuff&#xD;
+&#xD;
+next to do: take care of all those slashes...&#xD;
+&#xD;
+&#xD;
+just some more testing... this time to make sure everything is smooth.&#xD;
+to this end, I am temporarily removing the ajax functionality, in favour of good old-fashioned GET. once the basic user functions are in, I'll re-add them.</version><version ip="127.0.0.1" created="2008-01-02|13:29:21">hi, this page is about turtles. big ones, small ones, here, there. pretty much used only as a test page, or a sandbox.&#xD;
+Note to self: create a sandbox.&#xD;
+&#xD;
+sorry, I just have to add some special stuff to test the GET ajax junk: `~!@I guess it didn't get very far... not even line breaks...."';;:[]{}|,./&lt;&gt;?=- _)(*&#xD;
+&#xD;
+on the other hand, POST handles line breaks nicely!&#xD;
+&#xD;
+ha ha - just testing stuff&#xD;
+&#xD;
+next to do: take care of all those slashes...&#xD;
+&#xD;
+&#xD;
+just some more testing... this time to make sure everything is smooth.&#xD;
+to this end, I am temporarily removing the ajax functionality, in favour of good old-fashioned GET. once the basic user functions are in, I'll re-add them.</version><version ip="127.0.0.1" created="2008-01-02|13:58:17">hi, this page is about turtles. big ones, small ones, here, there. pretty much used only as a test page, or a sandbox.&#xD;
+Note to self: create a sandbox.&#xD;
+&#xD;
+sorry, I just have to add some special stuff to test the GET ajax junk: `~!@I guess it didn't get very far... not even line breaks...."';;:[]{}|,./&lt;&gt;?=- _)(*&#xD;
+&#xD;
+on the other hand, POST handles line breaks nicely!&#xD;
+&#xD;
+ha ha - just testing stuff&#xD;
+&#xD;
+next to do: take care of all those slashes...&#xD;
+&#xD;
+&#xD;
+just some more testing... this time to make sure everything is smooth.&#xD;
+to this end, I am temporarily removing the ajax functionality, in favour of good old-fashioned GET. once the basic user functions are in, I'll re-add them.&#xD;
+&#xD;
+more testing, refining...&#xD;
+oh, and perhaps the sandbox should have a limited edit history - that is, the earlier versions should be auto-deleted... somehow.</version><version ip="127.0.0.1" created="2008-01-03|22:59:32">hi, this page is about turtles. big ones, small ones, here, there. pretty much used only as a test page, or a sandbox.&#xD;
+Note to self: create a sandbox.&#xD;
+&#xD;
+sorry, I just have to add some special stuff to test the GET ajax junk: `~!@I guess it didn't get very far... not even line breaks...."';;:[]{}|,./&lt;&gt;?=- _)(*&#xD;
+&#xD;
+on the other hand, POST handles line breaks nicely!&#xD;
+&#xD;
+ha ha - just testing stuff&#xD;
+&#xD;
+next to do: take care of all those slashes...&#xD;
+&#xD;
+&#xD;
+just some more testing... this time to make sure everything is smooth.&#xD;
+to this end, I am temporarily removing the ajax functionality, in favour of good old-fashioned GET. once the basic user functions are in, I'll re-add them.&#xD;
+&#xD;
+more testing, refining...&#xD;
+oh, and perhaps the sandbox should have a limited edit history - that is, the earlier versions should be auto-deleted... somehow.&#xD;
+&#xD;
+testing version 2... hoping for a seamless transition, as well as a "bug-less" system!</version><version ip="127.0.0.1" created="2008-01-03|23:11:09">hi, this page is about turtles. big ones, small ones, here, there. pretty much used only as a test page, or a sandbox.&#xD;
+Note to self: create a sandbox.&#xD;
+&#xD;
+sorry, I just have to add some special stuff to test the GET ajax junk: `~!@I guess it didn't get very far... not even line breaks...."';;:[]{}|,./&lt;&gt;?=- _)(*&#xD;
+&#xD;
+on the other hand, POST handles line breaks nicely!&#xD;
+&#xD;
+ha ha - just testing stuff&#xD;
+&#xD;
+next to do: take care of all those slashes...&#xD;
+&#xD;
+&#xD;
+just some more testing... this time to make sure everything is smooth.&#xD;
+to this end, I am temporarily removing the ajax functionality, in favour of good old-fashioned GET. once the basic user functions are in, I'll re-add them.&#xD;
+&#xD;
+more testing, refining...&#xD;
+oh, and perhaps the sandbox should have a limited edit history - that is, the earlier versions should be auto-deleted... somehow.&#xD;
+&#xD;
+testing version 2... hoping for a seamless transition, as well as a "bug-less" system! oh, and again! (looks good so far! :D )</version><version current="true" ip="24.201.196.238" created="2008-01-05|19:00:44">Hamish likes turtles!&#xD;
+&#xD;
+hi, this page is about turtles. big ones, small ones, here, there. pretty much used only as a test page, or a sandbox.&#xD;
+Note to self: create a sandbox.&#xD;
+&#xD;
+sorry, I just have to add some special stuff to test the GET ajax junk: `~!@I guess it didn't get very far... not even line breaks...."';;:[]{}|,./&lt;&gt;?=- _)(*&#xD;
+&#xD;
+on the other hand, POST handles line breaks nicely!&#xD;
+&#xD;
+ha ha - just testing stuff&#xD;
+&#xD;
+next to do: take care of all those slashes...&#xD;
+&#xD;
+&#xD;
+just some more testing... this time to make sure everything is smooth.&#xD;
+to this end, I am temporarily removing the ajax functionality, in favour of good old-fashioned GET. once the basic user functions are in, I'll re-add them.&#xD;
+&#xD;
+more testing, refining...&#xD;
+oh, and perhaps the sandbox should have a limited edit history - that is, the earlier versions should be auto-deleted... somehow.&#xD;
+&#xD;
+testing version 2... hoping for a seamless transition, as well as a "bug-less" system! oh, and again! (looks good so far! :D )</version></content>
+</page>

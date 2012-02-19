@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<page><details><name>project-home smtp server</name></details><content><version current="true" ip="127.0.0.1" created="2008-01-18|21:08:23">&#xD;
+&#xD;
+this is slightly harder to implement, as most IPs block port 25.&#xD;
+&#xD;
+refer to http://communication.howstuffworks.com/email2.htm for the basics</version></content></page>
